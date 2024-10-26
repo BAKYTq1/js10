@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2023/05/28/09/21/south-tyrol-8023213_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div{
+    width: 370px;
+    height: 400px;
+    margin: 0 auto;
+   padding: 20px 20px;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    margin-top: 150px;
+}
+#task-input{
+    width: 240px;
+    height: 30px;
+}
+#task-input button{
+    width: 60px;
+    height: 30px;
+}
+ 
+ .task-input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+#add-task {
+    padding: 5px 10px;
+}
+
+#task-list {
+    width: 325px;
+    height: 20px;
+    margin-top: 50px;
+    /* list-style: none; */
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #ccc; */
+} 
